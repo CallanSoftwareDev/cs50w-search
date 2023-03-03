@@ -1,0 +1,50 @@
+body {
+    background: #323639;
+}
+
+#header {
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    flex-wrap: nowrap;
+    background: darkgray;
+    align-items: center;
+}
+
+#headerdiv {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#googlelogo {
+    height: 110px; 
+    margin: auto; 
+    padding: 20px; 
+    float: left;
+}
+
+.buttons {
+    background: #696b6f;
+    color: black;
+    float: right;
+    border-color: #696b6f;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+}
+
+.buttontext {
+    text-decoration: none;
+    color: black;
+}
+
+#search {
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
