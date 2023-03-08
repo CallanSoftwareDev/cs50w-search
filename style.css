@@ -61,5 +61,6 @@ body {
 #submit {
     text-align: center;
     width: 40vw;
-    height: 35px; 
+    height: 35px;
+    margin-top: 5px;
 }
