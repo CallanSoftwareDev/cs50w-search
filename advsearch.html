@@ -22,16 +22,28 @@
             </div>
         </header>
         <main>
-            <div class="glogo_div">
-                <img src="Images\glogofull.png" class="glogo_search">
-            </div>
-            <div id="search">
+            <div id="advsearchdiv">
                 <div>
+                    <h1 class="advbar" style="margin-bottom: 80px;">Find pages with...</h1>
                     <form action="https://www.google.com/search">
-                        <input type="text" id="searchbar" name="q">
-                        <div id="submit">
-                            <input type="submit" class="buttons" value="Google Search">
-                            <input type="submit" class="buttons" value="I'm Feeling Lucky">
+                        <div class="advbar">
+                            <p>all these words:</p>
+                            <input type="text" id="advsearchbar" name="as_q">
+                        </div>
+                        <div class="advbar">
+                            <p>this exact word or phrase:</p>
+                            <input type="text" id="advsearchbar" name="as_epq">
+                        </div>
+                        <div class="advbar">
+                            <p>any of these words:</p>
+                            <input type="text" id="advsearchbar" name="as_oq">
+                        </div>
+                        <div class="advbar" style="margin-bottom: 10px">
+                            <p>none of these words:</p>
+                            <input type="text" id="advsearchbar" name="as_eq">
+                        </div>
+                        <div id="submit" style="text-align: right;">
+                            <input type="submit" id="advsubmit" value="Advanced Search">
                         </div>
                     </form>
                 </div>
