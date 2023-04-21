@@ -1,0 +1,147 @@
+body {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 7vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#headerdiv {
+    width: 100%;
+    height: 7vw;
+    margin-bottom: 20px;
+}
+
+#glogo {
+    width: auto;
+    height: 5vw;
+    padding: 1%;
+    float: left;
+    align-self: center;
+}
+
+.glogo_div {
+    width: 100%;
+    height: 210px;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+    /* background: darkgray; */
+}
+
+.glogo_search {
+    width: 650px;
+    height: auto;
+    /* background: gray; */
+    align-self: baseline;
+    margin: 10px;
+}
+
+.buttons {
+    background: #f8f9fa;
+    color: white;
+    border-color: #f8f9fa;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+}
+
+.buttontext {
+    text-decoration: none;
+    color: white;
+}
+
+#search {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    /* background: black; */
+}
+
+#searchbar {
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 450px;
+    height: 45px; 
+    background: #323639;
+    color: white;
+    outline: none;
+}
+
+#searchbar:focus {
+    background: #555656;
+}
+
+#searchbar:hover {
+    background: #555656;
+}
+
+#submit {
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    align-self: center;
+    justify-self: center;
+    float: center;
+}
+
+#advsubmit {
+    background: #4687f5;
+    color: white;
+    border-color: #696b6f;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+}
+
+.advbar {
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+
+#advsearchdiv {
+    width: 100%;
+    height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#advsearchbar {
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 700px;
+    height: 45px; 
+    background: #323639;
+    color: white;
+    outline: none;
+}
+
+#advsearchbar:focus {
+    background: #555656;
+}
+
+#advsearchbar:hover {
+    background: #555656;
+}
