@@ -60,7 +60,7 @@ body {
 
 #search {
     width: 100%;
-    height: 200px;
+    height: 120px;
     justify-content: center;
     align-items: baseline;
     margin-top: 100px;
@@ -127,21 +127,21 @@ body {
 
 #advsearchbar {
     border-radius: 20px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid black;;
     text-align: left;
     padding-left: 12px;
     padding-right: 12px;
     width: 700px;
     height: 45px; 
-    background: #323639;
-    color: white;
+    background: white;
+    color: black;
     outline: none;
 }
 
 #advsearchbar:focus {
-    background: #555656;
+    background: #cccecf;
 }
 
 #advsearchbar:hover {
-    background: #555656;
+    background: #cccecf;
 }
