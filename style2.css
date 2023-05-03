@@ -53,6 +53,10 @@ body {
     padding: 8px;
 }
 
+.buttons:hover {
+    background: #cccecf;
+}
+
 .buttontext {
     text-decoration: none;
     color: black;
