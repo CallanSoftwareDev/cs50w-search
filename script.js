@@ -1,11 +1,19 @@
-function darkMode() {
-    const dark = "background: black;";
-    const light = "background: white;";
-    if(document.getElementsByTagName("body")[0].style == dark) {
-        document.getElementsByTagName("body")[0].style == light;
-        document.getElementsByClassName("themebutton").value = "Light Mode"
+function changeThemes() {
+    const checkbox = document.getElementById("themes");
+    const stylesheet = document.getElementById("css");
+    const glogof = document.getElementById("glogofull")
+    const glogos = document.getElementById("glogo")
+    const text = document.getElementById("themetext")
+    
+    if (checkbox.checked) {
+        stylesheet.href = "style.css"; // Replace with the new stylesheet href
+        glogof.src = "Images/glogofull.png"
+        glogos.src = "Images/glogo.png"
+        text.innerHTML = "Light Mode"
     } else {
-        document.getElementsByTagName("body")[0].style == dark;
-        document.getElementsByClassName("themebutton").value = "Dark Mode"
-    };
+        stylesheet.href = "style2.css"; // Replace with the new stylesheet href
+        glogof.src = "Images/glogowfull.png"
+        glogos.src = "Images/glogow.png"
+        text.innerHTML = "Dark Mode"
+    }
 }

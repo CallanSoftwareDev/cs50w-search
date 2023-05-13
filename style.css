@@ -26,7 +26,15 @@ body {
     align-self: center;
 }
 
-.glogo_div {
+#glogodiv {
+    width: auto;
+    height: 5vw;
+    padding: 1%;
+    float: left;
+    align-self: center;
+}
+
+.glogofull_div {
     width: 100%;
     height: 210px;
     justify-content: center;
@@ -35,7 +43,7 @@ body {
     /* background: darkgray; */
 }
 
-.glogo_search {
+.glogofull_search {
     width: 650px;
     height: auto;
     /* background: gray; */
@@ -157,4 +165,70 @@ body {
     border: none;
     margin: 5px;
     padding: 8px;
+}
+
+/* Theme Switcher Toggle */
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 141px;
+    height: 80px;
+}
+
+.toggle-switch input {
+    display: none;
+}
+
+.toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+    transition: 0.4s;
+    border-radius: 34px;
+    margin-top: 46px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+  
+.toggle:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .toggle {
+    background-color: white;
+}
+  
+  input:checked + .toggle:before {
+    transform: translateX(27.5px);
+}
+
+.toggle.round {
+    border-radius: 34px;
+}
+  
+.toggle.round:before {
+    border-radius: 50%;
+}
+
+#themediv {
+    width: 111px;
+    height: 80px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 27px;
+    border-radius: 12px;
+    background: #696b6f;
 }

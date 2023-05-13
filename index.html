@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Google Search</title>
-        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" type="text/css" id="css" href="style2.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
         <header>
             <div class="header" style="background: gray;">
                 <div id="headerdiv" style="align-items: center;">
-                    <div id="glogo">
+                    <div id="glogodiv">
                         <a href="index.html"><img src="Images\glogow.png" id="glogo"></a>
                     </div>
                     <div style="float: right;">
@@ -20,11 +20,11 @@
                         <button class="buttons"><a href="advsearch.html" class="buttontext">Advanced Search</a></button>
                     </div>
                 </div>
-            </div>
+            </div> 
         </header>
         <main>
-            <div class="glogo_div">
-                <img src="Images\glogowfull.png" class="glogo_search">
+            <div class="glogofull_div">
+                <img src="Images\glogowfull.png" class="glogofull_search" id="glogofull">
             </div>
             <div id="search">
                 <div>
@@ -38,5 +38,16 @@
                 </div>
             </div>
         </main>
+        <footer>
+            <div id="footer">
+                <label class="toggle-switch">
+                    <div id="themediv">
+                        <p id="themetext">Dark Mode</p>
+                        <input type="checkbox" id="themes" onchange="changeThemes()">
+                        <span class="toggle"></span>
+                    </div>
+                </label>
+            </div>
+        </footer>
     </body>
 </html>
