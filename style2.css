@@ -6,7 +6,7 @@ body {
 
 #header {
     width: 100%;
-    height: 7vw;
+    height: 90px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -14,37 +14,37 @@ body {
 
 #headerdiv {
     width: 100%;
-    height: 7vw;
+    height: 90px;
     margin-bottom: 20px;
 }
 
 #glogo {
     width: auto;
-    height: 5vw;
-    padding: 1%;
+    height: 64px;
+    padding: 6px;
     float: left;
     align-self: center;
 }
 
 #glogodiv {
     width: auto;
-    height: 5vw;
-    padding: 1%;
+    height: 64px;
+    padding: 6px;
     float: left;
     align-self: center;
 }
 
 .glogofull_div {
     width: 100%;
-    height: 210px;
+    height: 150px;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 7.5%;
     text-align: center;
     /* background: darkgray; */
 }
 
 .glogofull_search {
-    width: 650px;
+    width: 550px;
     height: auto;
     /* background: gray; */
     align-self: baseline;
@@ -72,7 +72,7 @@ body {
 
 #search {
     width: 100%;
-    height: 120px;
+    height: 100px;
     justify-content: center;
     align-items: baseline;
     margin-top: 100px;
@@ -87,8 +87,8 @@ body {
     text-align: left;
     padding-left: 12px;
     padding-right: 12px;
-    width: 450px;
-    height: 45px; 
+    width: 350px;
+    height: 35px; 
     background: white;
     color: black;
     outline: none;
@@ -129,7 +129,7 @@ body {
 
 #advsearchdiv {
     width: 100%;
-    height: 200px;
+    height: 800px;
     justify-content: left;
     align-items: baseline;
     margin-top: 100px;
@@ -144,7 +144,7 @@ body {
     padding-left: 12px;
     padding-right: 12px;
     width: 700px;
-    height: 45px; 
+    height: 35px; 
     background: white;
     color: black;
     outline: none;
@@ -169,6 +169,7 @@ body {
     display: inline-block;
     width: 141px;
     height: 80px;
+    margin-bottom: 100px;
 }
 
 .toggle-switch input {
@@ -185,9 +186,10 @@ body {
     background-color: gray;
     transition: 0.4s;
     border-radius: 34px;
-    margin-top: 46px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-top: 39.5px;
+    margin-right: 54.5px;
+    margin-left: 25px;
+    margin-bottom: 7px;
 }
   
 .toggle:before {
@@ -203,11 +205,21 @@ body {
 }
 
 #themediv {
-    width: 111px;
-    height: 80px;
-    padding-top: 5px;
-    padding-left: 30px;
-    padding-bottom: 27px;
-    border-radius: 12px;
+    width: 95px;
+    height: 52px;
+    padding-top: 1px;
+    padding-left: 17px;
+    padding-bottom: 28px;
+    border-radius: 10px;
+    margin-top: 4.5px;
     background: #bebebe;
+}
+
+#themetext {
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+
+#headertoggle {
+    float: left;
 }

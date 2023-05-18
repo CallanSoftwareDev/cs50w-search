@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="Images/glogow.png" id="tabicon">
         <title>Google Images</title>
-        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" type="text/css" id="css" href="style2.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap" rel="stylesheet">
@@ -15,6 +17,15 @@
                     <div id="glogodiv">
                         <a href="index.html"><img src="Images\glogow.png" id="glogo"></a>
                     </div>
+                    <div id="headertoggle">
+                        <label class="toggle-switch">
+                            <div id="themediv">
+                                <p id="themetext">Dark Mode</p>
+                                <input type="checkbox" id="themes" onchange="imgThemes()">
+                                <span class="toggle"></span>
+                            </div>
+                        </label>
+                    </div>
                     <div style="float: right;">
                         <button class="buttons"><a href="index.html" class="buttontext">Google Search</a></button>
                         <button class="buttons"><a href="advsearch.html" class="buttontext">Advanced Search</a></button>
@@ -24,7 +35,7 @@
         </header>
         <main>
             <div class="glogofull_div">
-                <img src="Images\glogoimgwfull.png" class="glogofull_search">
+                <img src="Images\glogoimgwfull.png" class="glogofull_search" id="glogofull">
             </div>
             <div id="search">
                 <div>

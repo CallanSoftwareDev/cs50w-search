@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="x-icon" href="Images/glogow.png" id="tabicon">
         <title>Advanced Search</title>
-        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" type="text/css" id="css" href="style2.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&display=swap" rel="stylesheet">
@@ -14,6 +16,15 @@
                 <div id="headerdiv" style="align-items: center;">
                     <div id="glogodiv">
                         <a href="index.html"><img src="Images\glogow.png" id="glogo"></a>
+                    </div>
+                    <div id="headertoggle">
+                        <label class="toggle-switch">
+                            <div id="themediv">
+                                <p id="themetext">Dark Mode</p>
+                                <input type="checkbox" id="themes" onchange="advThemes()">
+                                <span class="toggle"></span>
+                            </div>
+                        </label>
                     </div>
                     <div style="float: right;">
                         <button class="buttons"><a href="imgsearch.html" class="buttontext">Image Search</a></button>
